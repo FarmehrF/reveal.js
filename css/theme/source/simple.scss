@@ -15,19 +15,19 @@
 
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,900&display=swap');
+
 
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: 'Lato', sans-serif;
-$mainColor: #000;
-$headingFont: 'News Cycle', Impact, sans-serif;
-$headingColor: #000;
+$mainFont: 'Roboto', sans-serif;
+$mainColor: #3A86FF;
+$headingFont: 'Roboto', sans-serif;
+$headingColor: #3A86FF;
 $headingTextShadow: none;
 $headingTextTransform: none;
-$backgroundColor: #fff;
-$linkColor: #00008B;
+$backgroundColor: #FFBE0B;
+$linkColor: #FB5607;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
